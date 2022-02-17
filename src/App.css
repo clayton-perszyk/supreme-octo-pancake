@@ -3,3 +3,9 @@
   min-height: 100vh;
   padding: 1rem;
 }
+
+.companies-table,
+.company-website,
+.loading-text {
+  color: white;
+}
