@@ -5,6 +5,25 @@
 }
 
 td, th {
-  color: red;
-  border: 1px solid white;
+  color: white;
+}
+
+#loading {
+  color: gold;
+}
+
+#refreshButton {
+  background-color: aqua;
+  color: black;
+}
+
+tr:nth-child(even) {background-color: rgb(56, 52, 52)}
+tr:nth-child(odd) {background-color: rgb(100, 96, 96)}
+
+a {
+  color: white;
+}
+
+tr th {
+  background-color: rgb(27, 23, 23);
 }
