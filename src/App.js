@@ -24,9 +24,9 @@ function App() {
 
   return (
     <div className="app">
-     <button onClick={getCompanies}>Refresh</button>
-      {!isLoaded && (<div >loading...</div>)}
-      <table>
+     <button id="refreshButton" onClick={getCompanies}>Refresh</button>
+      {!isLoaded && (<div id="loading">loading...</div>)}
+      {isLoaded && (<table>
         <thead>
           <tr>
             <th>Name</th>
@@ -47,7 +47,7 @@ function App() {
               );
             })}
          </tbody>
-      </table>
+      </table>)}
     </div>
   );
 }
